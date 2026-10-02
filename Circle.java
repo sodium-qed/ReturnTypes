@@ -1,7 +1,7 @@
 public class Circle {
     private double radius;
     public Circle(double radius) {
-        this.radius = radius;
+        this.radius = radius; //Constructor to set the radius to the radius
     }
 
     public double area() {
@@ -20,6 +20,6 @@ public class Circle {
     }
 
     public void updateRadius(double radius) {
-        this.radius = radius;
+        this.radius = radius; //Update the radius
     }
 }
